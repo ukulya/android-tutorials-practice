@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.proayimapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ProAyimApp">
+        <activity
+            android:name=".MainActivity081121"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity0511212"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity051121"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity111212"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity11121"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity291021"
+            android:exported="true" /> <!-- когда вручную создаем mainActivity - то нужно здесь добавть -->
+        <activity
+            android:name=".MainActivity2710211"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity261021"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity271021"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
